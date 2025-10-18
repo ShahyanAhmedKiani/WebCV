@@ -1,6 +1,4 @@
-/* style.css */
 
-/* --- General Styling --- */
 button{
     color:#050505;
     background-color:#3498db;
@@ -16,7 +14,7 @@ button{
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /* Primary font for headings */
+    font-family: 'Roboto', sans-serif; /*  font for headings */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -24,7 +22,7 @@ body {
     background-color: var(--light-gray);
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure footer stays at bottom */
+    min-height: 100vh; 
 }
 
 a {
@@ -39,7 +37,7 @@ a:hover {
 }
 
 h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif; /* Secondary font for body/subheadings */
+    font-family: 'Open Sans', sans-serif; /
     color: var(--secondary-color);
     margin-bottom: 0.8em;
 }
@@ -97,7 +95,7 @@ h3 { font-size: 1.6em; }
     display: flex;
     justify-content: center;
     gap: 25px;
-    flex-wrap: wrap; /* Allow navigation items to wrap on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .main-nav a {
@@ -116,16 +114,16 @@ h3 { font-size: 1.6em; }
     text-decoration: none; /* Remove underline on hover for nav items */
 }
 
-/* --- Main Content Layout (Flexbox) --- */
+/* --- Main Content Layout  --- */
 .main-content {
-    flex-grow: 1; /* Allows main content to take up available space */
+    flex-grow: 1; 
     width: 90%;
     max-width: 1000px;
     margin: 30px auto;
     padding: 0 20px;
 }
 
-/* --- Section Specific Styling --- */
+
 .education-item, .experience-item {
     margin-bottom: 25px;
     padding-left: 15px;
@@ -202,7 +200,7 @@ h3 { font-size: 1.6em; }
 }
 
 .footer address a:hover {
-    color: var(--white); /* Lighter hover for footer links */
+    color: var(--white); 
     text-decoration: underline;
 }
 
@@ -211,7 +209,7 @@ h3 { font-size: 1.6em; }
     color: var(--dark-gray);
 }
 
-/* --- Responsive Design (Media Queries) --- */
+/* --- Responsive Design  --- */
 @media (max-width: 768px) {
     .header h1 {
         font-size: 2.2em;
@@ -261,4 +259,5 @@ h3 { font-size: 1.6em; }
     h2 {
         font-size: 1.5em;
     }
+
 }
